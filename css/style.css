@@ -131,7 +131,7 @@ section {
     display: flex;
     align-items: center;
     background: url("../img/eliasbanner.png") no-repeat;
-    background-size: 450px 96%;
+    background-size: 390px 96%;
     background-position: top 100% right 9%;
     position: relative;
     overflow-x: hidden;
@@ -1171,7 +1171,7 @@ footer strong {
     }
     .banner {
         /* background-size: 380px 300px; */
-        background-size: 350px 94%;
+        background-size: 320px 94%;
 
     }
 
