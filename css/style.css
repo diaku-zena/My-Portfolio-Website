@@ -51,7 +51,7 @@ header ul {
 }
 
 header li {
-    margin-left: .3rem;
+    margin-left: 1.2rem;
     background-color: #2f2f2f;
     border-radius: 2rem;
     padding: .2rem .15rem;
@@ -93,7 +93,7 @@ a {
     height: 20rem;
     width: 50%;
     /* padding-left: 10px; */
-    padding: 1rem;
+    padding: 3rem 1rem;
 }
 
 .hello {
@@ -131,8 +131,8 @@ section {
     display: flex;
     align-items: center;
     background: url("../img/eliasbanner.png") no-repeat;
-    background-size: 400px 340px;
-    background-position: top 50% right 9%;
+    background-size: 450px 96%;
+    background-position: top 100% right 9%;
     position: relative;
     overflow-x: hidden;
     background-color: #2f2f2f;
@@ -143,10 +143,10 @@ section {
     position: absolute;
     width: 450px;
     height: 80vh;
-    border-top: #cfcfcf1a solid 20px;
+    border-top: #cfcfcf10 solid 20px;
     border-radius: 50%;
     background-color: none;
-    right: 20px;
+    right: 40%;
     top: 15.6%;
     z-index: 1;
 }
@@ -355,8 +355,8 @@ section {
 /* -------------------- About Me section style ----------------- */
 .about {
     background: url("../img/eliasbanner2.png") no-repeat left;
-    background-size: 300px 340px;
-    background-position: top 50% left 9%;
+    background-size: 270px 410px;
+    background-position: top 100% left 0%;
     min-height: 80vh;
     position: relative;
     text-align: justify;
@@ -399,7 +399,7 @@ section {
 }
 
 .about-info .info {
-    width: 55%;
+    width: 65%;
     border-left: solid 4px #f37d7d;
     padding: 0.5rem 0 0 1rem;
     transform: translateX(-400%);
@@ -451,7 +451,7 @@ section {
 .skills {
     background-color: #2f2f2f;
     padding: 3rem 9%;
-    min-height: calc(100vh + 2rem);
+    min-height: calc(100vh + 5rem);
 }
 
 .skills .note {
@@ -492,19 +492,20 @@ section {
 }
 
 .skills-tech .item {
+    height: 5rem;
     flex: 0 0 20%;
-    border-radius: 1.5rem;
+    border-radius: .5rem;
     background-color: #202223;
     margin: .7rem;
-    padding: 1rem;
+    padding: .4rem;
     overflow: hidden;
-    object-fit: cover;
+    /* object-fit: cover; */
     color: rgb(36, 32, 32);
 
 }
 
 .skills-tech .item.selected {
-    border: #f37d7d solid 1px;
+    border: #f37d7d solid 2px;
 }
 
 .skills-tech .item:hover {
@@ -519,7 +520,10 @@ section {
 .skills-tech .item img {
     width: 100%;
     height: 100%;
-    background-color: #dddddd38;
+    
+    /* background-color: #dddddd38; */
+    object-fit: cover;
+
 }
 
 .skills-type {
@@ -1010,6 +1014,9 @@ footer strong {
 }
 
 @media(max-width: 991px) {
+    .banner{
+        background-size: 370px 96%;
+    }
     .information {
         width: 55%;
         margin-top: 4rem;
@@ -1068,6 +1075,7 @@ footer strong {
 
     .circle-bg {
         top: 13.5%;
+        left: 10%;
     }
 
 
@@ -1162,8 +1170,9 @@ footer strong {
         padding: .5rem 9%;
     }
     .banner {
-        background-size: 380px 300px;
-        background-position-x: 100%;
+        /* background-size: 380px 300px; */
+        background-size: 350px 94%;
+
     }
 
     .information {
@@ -1186,6 +1195,10 @@ footer strong {
     .name span {
         color: #f37d7d;
         font-size: 20px;
+    }
+
+    .about{
+        background-size: 270px 84%;
     }
 
     .skills-type span {
@@ -1255,8 +1268,7 @@ footer strong {
     }
 
     .banner {
-        background-size: 350px 300px;
-        background-position-x: 100%;
+        background-size: 330px 94%;
     }
 
     .information {
@@ -1272,8 +1284,8 @@ footer strong {
     }
 
     .about {
-        background-size: 270px 300px;
-        background-position: top 50% left 9%;
+        background-size: 240px 85%;
+        background-position: top 100% left 9%;
     }
 
     .skills-type span {
@@ -1299,12 +1311,13 @@ footer strong {
 
 @media (max-width: 670px) {
     .banner {
-        background-size: 360px 300px;
+        background-size: 330px 94%;
         background-position-x: 100%;
     }
 
     .about {
-        background-size: 240px 270px;
+        background-position: left 0% top 100%;
+        background-size: 240px 85%;
     }
 
     .about-info .info {
@@ -1369,13 +1382,12 @@ footer strong {
     }
 
     .banner {
-        background-position-x: 120%;
-        background-size: 300px 240px;
+        background-position-x: 100%;
+        background-size: 270px 93%;
     }
 
     .about {
-        background-position-x: -20%;
-        background-size: 240px 270px;
+        background-size: 240px 80%;
     }
 
     .about-info .info {
@@ -1393,6 +1405,7 @@ footer strong {
     }
 
     .skills {
+        /* min-height: calc(100vh + 8rem); */
         display: flex;
         flex-direction: column;
         align-content: flex-start;
@@ -1412,7 +1425,7 @@ footer strong {
 
     .skills-tech-all {
         width: 100%;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
         /* height: 100%; */
     }
 
@@ -1437,8 +1450,8 @@ footer strong {
 
 @media (max-width: 526px) {
     .banner {
-        background-position-x: 120%;
-        background-size: 250px 240px;
+        background-position-x: 110%;
+        background-size: 250px 94%;
     }
 
     .information {
@@ -1461,7 +1474,7 @@ footer strong {
     }
 
     .about {
-        background-position-x: -20%;
+        background-position: left -7% top 100%;
         background-size: 180px 270px;
     }
 
@@ -1521,8 +1534,7 @@ footer strong {
     }
 
     .banner {
-        background-position-x: 120%;
-        background-size: 230px 240px;
+        background-size: 230px 94%;
 
     }
     
@@ -1533,7 +1545,6 @@ footer strong {
     }
 
     .about {
-        background-position-x: -20%;
         background-size: 180px 270px;
     }
 
