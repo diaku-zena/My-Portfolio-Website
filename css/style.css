@@ -788,7 +788,7 @@ li.active {
     flex: 0 0 28%;
     height: 18rem;
     margin: 1rem;
-    background-color: #4947463c;
+    background-color: #7b77753c;
     border: #f37d7d83 solid 1px;
     border-radius: 1rem;
     overflow: hidden;
@@ -811,6 +811,7 @@ li.active {
 .project-item img {
     width: 100%;
     height: 55%;
+    
 }
 
 .visit {
@@ -830,7 +831,7 @@ li.active {
 }
 
 .incoming img {
-    opacity: .4;
+    opacity: 0;
 }
 
 .visit:hover,
