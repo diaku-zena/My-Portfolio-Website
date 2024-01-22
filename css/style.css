@@ -123,14 +123,14 @@ a {
 }
 
 section {
-    min-height: 100vh;
-    padding: 4rem 9%;
+    min-height: auto !important;
+    padding: 4rem 5%;
 }
 
 .banner {
     display: flex;
     align-items: center;
-    background: url("../img/eliasbanner.png") no-repeat;
+    /* background: url("../img/projects/me1.jpeg") no-repeat; */
     background-size: 390px 96%;
     background-position: top 100% right 9%;
     position: relative;
@@ -139,10 +139,28 @@ section {
     z-index: 10;
 }
 
+.banner-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    transform: skewX(0deg);
+}
+
+.banner-img {
+    margin-left: 5rem;
+    width: 300px;
+    border-radius: 30%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.banner-img img {
+    object-fit: cover;
+}
+
 .circle-bg {
     position: absolute;
     width: 450px;
-    height: 80vh;
     border-top: #cfcfcf10 solid 20px;
     border-radius: 50%;
     background-color: none;
@@ -354,15 +372,22 @@ section {
 
 /* -------------------- About Me section style ----------------- */
 .about {
-    background: url("../img/eliasbanner2.png") no-repeat left;
-    background-size: 270px 410px;
-    background-position: top 100% left 0%;
     min-height: 80vh;
     position: relative;
     text-align: justify;
+    padding: 2rem 9%;
     /* padding-top: 4rem; */
 }
 
+.about-img {
+    height: 300px;
+    width: 20%;
+}
+
+.about-img img{
+    object-fit: cover;
+    object-position: top;
+}
 .heading {
     text-align: center;
     margin: 2rem;
@@ -451,7 +476,11 @@ section {
 .skills {
     background-color: #2f2f2f;
     padding: 3rem 9%;
-    min-height: calc(100vh + 5rem);
+    min-height: 65vh !important;
+}
+
+.skills-container {
+
 }
 
 .skills .note {
@@ -778,6 +807,9 @@ li.active {
 }
 
 /* --------- Projects ------------------- */
+#projects {
+    min-height: auto;
+}
 .projects-info {
     display: flex;
     justify-content: space-between;
@@ -785,8 +817,8 @@ li.active {
 }
 
 .projects-info .project-item {
-    flex: 0 0 28%;
-    height: 18rem;
+    flex: 0 0 30%;
+    /* height: 26rem; */
     margin: 1rem;
     background-color: #7b77753c;
     border: #f37d7d83 solid 1px;
@@ -819,6 +851,10 @@ li.active {
     margin: 1.1rem auto;
     background-color: #eb8583d8;
     font-weight: bolder;
+}
+
+.indisponivel {
+    background-color: #333;
 }
 
 .incoming .visit {
@@ -949,8 +985,8 @@ li.active {
 }
 
 .form-item input {
-    border-radius: .2rem;
-    padding: .3rem;
+    border-radius: .62rem;
+    padding: .65rem;
     background-color: #e8e4e4;
     font-weight: bolder;
     color: #202223;
