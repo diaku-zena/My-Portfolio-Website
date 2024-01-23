@@ -674,7 +674,7 @@ li.active {
 .progress-bar .css {
     padding: .2rem;
     background-color: green;
-    width: 80%;
+    width: 85%;
     height: 4px;
 
 }
@@ -682,7 +682,7 @@ li.active {
 .progress-bar .javascript {
     padding: .2rem;
     background-color: green;
-    width: 60%;
+    width: 75%;
     height: 4px;
 
 }
@@ -690,7 +690,7 @@ li.active {
 .progress-bar .angular {
     padding: .2rem;
     background-color: green;
-    width: 55%;
+    width: 85%;
     height: 4px;
 
 }
@@ -705,7 +705,7 @@ li.active {
 .progress-bar .jquery {
     padding: .2rem;
     background-color: green;
-    width: 50%;
+    width: 70%;
     height: 4px;
 
 }
@@ -721,7 +721,7 @@ li.active {
 .progress-bar .python {
     padding: .2rem;
     background-color: green;
-    width: 60%;
+    width: 65%;
     height: 4px;
 
 }
@@ -729,7 +729,7 @@ li.active {
 .progress-bar .php {
     padding: .2rem;
     background-color: green;
-    width: 65%;
+    width: 75%;
     height: 4px;
 
 }
@@ -745,7 +745,7 @@ li.active {
 .progress-bar .django {
     padding: .2rem;
     background-color: green;
-    width: 60%;
+    width: 85%;
     height: 4px;
 
 }
@@ -753,7 +753,7 @@ li.active {
 .progress-bar .laravel {
     padding: .2rem;
     background-color: green;
-    width: 60%;
+    width: 70%;
     height: 4px;
 
 }
@@ -769,7 +769,7 @@ li.active {
 .progress-bar .ts {
     padding: .2rem;
     background-color: green;
-    width: 50%;
+    width: 70%;
     height: 4px;
 
 }
@@ -777,7 +777,7 @@ li.active {
 .progress-bar .mysql {
     padding: .2rem;
     background-color: green;
-    width: 70%;
+    width: 77%;
     height: 4px;
 
 }
@@ -793,7 +793,7 @@ li.active {
 .progress-bar .github {
     padding: .2rem;
     background-color: green;
-    width: 60%;
+    width: 70%;
     height: 4px;
 
 }
@@ -801,7 +801,7 @@ li.active {
 .progress-bar .git {
     padding: .2rem;
     background-color: green;
-    width: 60%;
+    width: 70%;
     height: 4px;
 
 }
